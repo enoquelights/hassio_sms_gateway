@@ -21,12 +21,18 @@ I am just uploading so others can use it, since the Integration has been depreca
 
 - Home Assistant OS
 
-- A compatible GSM modem or device
+- A compatible GSM modem or device. I used the SIM800C
 
 🛠️ Installation
 
 Copy grimsms folder to /addons directory
 Copy grim_sms to /config/custom_components
+Go to Devices and services and search for "Grim SMS Gateway" and install.
+
+The custom component will create the Entities
+- sensor.grim_sms_gateway_health 
+- sensor.grim_sms_last_message
+- sensor.grim_sms_signal_strength
 
 ⚙️ Environment Variables
 - Variable	Description	Default
