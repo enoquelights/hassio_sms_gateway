@@ -159,6 +159,12 @@ Each message will include:
 ```
 🧪 Development & Debugging
 
+You can check the status on these URLs:
+
+- http://your-ha-ip:8002/inbox
+- http://your-ha-ip:8002/health
+- http://your-ha-ip:8002/signal
+
 Logs are printed to stdout with INFO level by default.
 
 Polling interval for new SMS: 10 seconds
