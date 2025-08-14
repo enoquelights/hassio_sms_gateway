@@ -44,6 +44,7 @@ The custom component will create the Entities
 - GAMMU_BAUDSPEED	Baud rate for the modem (Gammu connection string)	at115200
 
 API Endpoints
+
 POST /send
 
 Send an SMS.
