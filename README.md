@@ -2,7 +2,7 @@
 
 <img width="322" height="270" alt="image" src="https://github.com/user-attachments/assets/9695520e-eb64-40a2-9041-2b223e3561b3" />
 
-This is an asynchronous SMS gateway built with Python, aiohttp, and gammu, designed to send and receive SMS messages via HTTP endpoints. It supports integration with Home Assistant using supervisor events. 
+This is an asynchronous SMS gateway built with Python, aiohttp, py-smsgateway-async, and gammu, designed to send and receive SMS messages via HTTP endpoints. It supports integration with Home Assistant using supervisor events. 
 
 Disclaimer: 
 I am just uploading so others can use it, since the Integration has been deprecated. There probably wont be updates from me, fork if you need something changed or updated.
