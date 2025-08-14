@@ -1,0 +1,41 @@
+name: "Grim SMS Gateway"
+version: "0.2.6"
+slug: "grim_sms_gateway"
+description: "GSM modem SMS integration using Gammu and py-smsgateway-async"
+startup: services
+boot: auto
+init: false
+homeassistant_api: true
+hassio_api: true
+options:  
+  poll_interval: 10
+  gammu_device: "/dev/serial/by-id/usb-1a86_USB_Serial-if00-port0"
+  gammu_connection: "at115200"
+devices:
+  - /dev/ttyUSB0
+schema:  
+  poll_interval: int
+  gammu_device: str
+  gammu_connection: str 
+
+arch:
+  - amd64
+  - aarch64
+  - armv7
+  - armhf
+  - i386
+
+ports:
+  "8002/tcp": 8002
+
+map:
+  - config:rw
+  - ssl
+  - usb
+  - share
+  - addons:rw
+  - media:rw
+  - backup:rw
+  - data:ro  
+
+usb: true
