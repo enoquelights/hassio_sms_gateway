@@ -1,0 +1,10 @@
+{
+  "domain": "grim_sms",
+  "name": "Grim SMS Gateway",
+  "requirements": [],
+  "version": "1.0.28",
+  "config_flow": true,
+  "iot_class": "local_polling",
+  "dependencies": [],
+  "codeowners": []
+}
