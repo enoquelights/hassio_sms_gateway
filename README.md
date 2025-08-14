@@ -30,6 +30,7 @@ I am just uploading so others can use it, since the Integration has been depreca
 - Copy grimsms folder to /addons directory
 - Copy grim_sms to /config/custom_components
 - Go to Devices and services and search for "Grim SMS Gateway" and install.
+- Set the URL with your HA URL and port for the addon you set.
 
 The custom component will create the Entities
 - sensor.grim_sms_gateway_health # health of the gateway
