@@ -32,17 +32,15 @@ I am just uploading so others can use it, since the Integration has been depreca
 - Go to Devices and services and search for "Grim SMS Gateway" and install.
 
 The custom component will create the Entities
-- sensor.grim_sms_gateway_health 
-- sensor.grim_sms_last_message
-- sensor.grim_sms_signal_strength
+- sensor.grim_sms_gateway_health # health of the gateway
+- sensor.grim_sms_last_message # Last message received, used for auotmations or abything else.
+- sensor.grim_sms_signal_strength # Check signal
 
-⚙️ Environment Variables
+⚙️ Addon Environment Variables
 - Variable	Description	Default
 
 - PORT	Port the API will listen on	8002
-
 - GAMMU_DEVICE	Path to GSM modem device	/dev/serial/by-id/xxxxxx
-
 - GAMMU_BAUDSPEED	Baud rate for the modem (Gammu connection string)	at115200
 
 API Endpoints
